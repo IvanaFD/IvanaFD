@@ -1,7 +1,7 @@
 # Hola, soy Ivana ![cat](./cat.svg)
 
 Estudiante de tercer año en Ciencias de la Computación en la Universidad del Valle de Guatemala.
-Me gusta aprender de la tecnología todos los días — es un proceso que nunca acaba.
+Me gusta aprender de la tecnología todos los días, es un proceso que nunca acaba.
 Me gusta crear soluciones completas y brindar la mejor experiencia al usuario, hacer cosas creativas y salir de mi zona de confort aprendiendo cosas nuevas.
 
 ---
