@@ -1,4 +1,4 @@
-# Hola, soy Ivana 👋
+# Hola, soy Ivana ![cat](./cat.svg)
 
 Estudiante de tercer año en Ciencias de la Computación en la Universidad del Valle de Guatemala.
 Me gusta aprender de la tecnología todos los días — es un proceso que nunca acaba.
