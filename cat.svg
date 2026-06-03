@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="30">
+  <style>
+    .text { 
+      fill: #c9d1d9; 
+      font-family: monospace, sans-serif; 
+      font-size: 20px; 
+      font-weight: bold; 
+    }
+    .cyan { fill: #00ffff; }
+    
+    .ear-left { 
+      transform-origin: 18px 10px;
+      animation: ear-twitch 3s infinite;
+    }
+    .ear-right { 
+      transform-origin: 53px 10px;
+      animation: ear-twitch 3s infinite 0.2s;
+    }
+    .eye {
+      animation: blink 5s infinite 2s;
+    }
+    .tail { 
+      transform-origin: 75px 22px; 
+      animation: wag 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes ear-twitch {
+      0%, 90% { transform: rotate(0); }
+      91% { transform: rotate(15deg); }
+      93% { transform: rotate(-10deg); }
+      95% { transform: rotate(5deg); }
+      97% { transform: rotate(0); }
+    }
+    
+    @keyframes wag {
+      0% { transform: rotate(-10deg); }
+      100% { transform: rotate(15deg); }
+    }
+
+    @keyframes blink {
+      0%, 96%, 100% { transform: scaleY(1); }
+      98% { transform: scaleY(0.1); }
+    }
+  </style>
+  <text x="5" y="22" class="text">₍</text>
+  <text x="13" y="22" class="text cyan ear-left">^</text>
+  <text x="23" y="22" class="text eye" style="transform-origin: 25px 15px;">.</text>
+  <text x="35" y="22" class="text eye" style="transform-origin: 37px 15px;">.</text>
+  <text x="48" y="22" class="text cyan ear-right">^</text>
+  <text x="58" y="22" class="text">₎</text>
+  <text x="70" y="22" class="text cyan tail">Ⳋ</text>
+</svg>
